@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.myapplication.R;
 
 /**
- * @author zhouyoukun
  */
 public class XidingFootAdapter extends RecyclerView.Adapter<ContentHold> {
 

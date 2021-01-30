@@ -1,7 +1,6 @@
 package com.example.myapplication.recycleviews;
 
 /**
- * @author: dukangkang
  * @date: 2020-02-06 13:02.
  * @description: todo ...
  */

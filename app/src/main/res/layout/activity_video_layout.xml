@@ -7,7 +7,7 @@
 
 
 
-    <com.geek.ijkplayer.player.IjkVideoView
+    <com.video.ijkplayer.player.IjkVideoView
         android:id="@+id/video_view"
         android:layout_width="match_parent"
         android:layout_height="300dp"

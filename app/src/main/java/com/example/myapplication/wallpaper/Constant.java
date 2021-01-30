@@ -6,7 +6,7 @@ package com.example.myapplication.wallpaper;
 
 public class Constant {
 
-    public static final String VIDEO_PARAMS_CONTROL_ACTION = "com.geek.beauty.wallpaper.dynamic";
+    public static final String VIDEO_PARAMS_CONTROL_ACTION = "com.wallpaper.dynamic";
     public static final String ACTION = "action";
     public static final int ACTION_VOICE_SILENCE = 0x101;
     public static final int ACTION_VOICE_NORMAL = 0x102;

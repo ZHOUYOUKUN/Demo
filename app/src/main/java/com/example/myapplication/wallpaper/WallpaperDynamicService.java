@@ -17,7 +17,6 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * @author guobangbang@xiaoniuhy.com
  * @description 动态壁纸服务
  * @time 2020/11/24 10:55
  */

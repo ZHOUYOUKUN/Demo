@@ -4,13 +4,12 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplication.R
-import com.geek.ijkplayer.listener.OnVideoViewStateChangeListener
-import com.geek.ijkplayer.player.PlayerConfig
-import com.geek.ijkplayer.player.VideoViewManager
-import com.geek.ijkplayer.ui.StandardVideoController
+import com.video.ijkplayer.listener.OnVideoViewStateChangeListener
+import com.video.ijkplayer.player.PlayerConfig
+import com.video.ijkplayer.player.VideoViewManager
+import com.video.ijkplayer.ui.StandardVideoController
 import kotlinx.android.synthetic.main.activity_video_layout.*
 
 class VideoActivity : AppCompatActivity() {

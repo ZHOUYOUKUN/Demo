@@ -9,7 +9,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.myapplication.R;
 
 /**
- * @author zhouyoukun
  */
 public class XidingAdapter extends RecyclerView.Adapter {
 
