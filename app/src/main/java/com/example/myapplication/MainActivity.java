@@ -11,6 +11,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.view.View;
 
 import com.example.myapplication.recycleviews.XiDingRecyclerViewActivity;
@@ -18,6 +19,8 @@ import com.example.myapplication.video.VideoActivity;
 import com.example.myapplication.viewflipper.ViewFlipperActivity;
 import com.example.myapplication.wallpaper.Constant;
 import com.example.myapplication.wallpaper.WallpaperDynamicService;
+
+import java.io.File;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -49,12 +52,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
             case R.id.tv_wallpaper:
-                String path = "/sdcard/VID_20210130_173944.mp4";
+                String path = getSDPath()+"/VID_20210130_173944.mp4";
                 WallpaperDynamicService.setToWallPaper(this, path);
                 break;
             default:
                 break;
         }
+    }
+
+    public String getSDPath(){
+        File sdDir = null;
+        boolean sdCardExist = Environment.getExternalStorageState().equals(android.os.Environment.MEDIA_MOUNTED);
+        if(sdCardExist)
+        {
+            sdDir = Environment.getExternalStorageDirectory();
+        }
+        return sdDir.toString();
     }
 }
 
