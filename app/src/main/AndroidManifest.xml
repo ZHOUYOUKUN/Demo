@@ -24,6 +24,7 @@
 
         <activity android:name=".viewflipper.ViewFlipperActivity" />
         <activity android:name=".recycleviews.XiDingRecyclerViewActivity"/>
+        <activity android:name="com.example.myapplication.video.VideoActivity" />
 
         <service
             android:name=".wallpaper.WallpaperDynamicService"

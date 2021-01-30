@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.myapplication.recycleviews.XiDingRecyclerViewActivity;
+import com.example.myapplication.video.VideoActivity;
 import com.example.myapplication.viewflipper.ViewFlipperActivity;
 import com.example.myapplication.wallpaper.Constant;
 import com.example.myapplication.wallpaper.WallpaperDynamicService;
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.tv_viewflipper).setOnClickListener(this);
         findViewById(R.id.tv_xidinglist).setOnClickListener(this);
         findViewById(R.id.tv_wallpaper).setOnClickListener(this);
+        findViewById(R.id.tv_video).setOnClickListener(this);
         requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},1);
     }
 
@@ -41,8 +43,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.tv_xidinglist:
                 XiDingRecyclerViewActivity.startXiDingRecyclerViewActivity(this);
                 break;
+            case R.id.tv_video:
+//                VideoActivity.Companion.startActivity(this);
+                Intent intent = new Intent(this, VideoActivity.class);
+                startActivity(intent);
+                break;
             case R.id.tv_wallpaper:
-                String path = "/storage/emulated/0/DCIM/Camera/VID_20210130_173911.mp4";
+                String path = "/sdcard/VID_20210130_173944.mp4";
                 WallpaperDynamicService.setToWallPaper(this, path);
                 break;
             default:

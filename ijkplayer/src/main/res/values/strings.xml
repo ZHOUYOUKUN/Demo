@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dkplayer_error_message">出了点小问题，请稍后重试</string>
+    <string name="dkplayer_retry"> 重    试 </string>
+    <string name="dkplayer_continue_play">继续播放</string>
+    <string name="dkplayer_wifi_tip">您正在使用移动网络，继续播放将消耗流量</string>
+    <string name="dkplayer_replay">重播</string>
+    <string name="dkplayer_lock_tip">请先解锁屏幕！</string>
+    <string name="dkplayer_unlocked">已解锁</string>
+    <string name="dkplayer_locked">已锁定</string>
+    <string name="play_consume_tip">继续播放将消耗</string>
+    <string name="try_again">重新加载</string>
+    <string name="empty_tip">这里还什么都没有呢～</string>
+    <string name="net_work_error">网络好像断开了～</string>
+</resources>
