@@ -62,4 +62,62 @@
         app:layout_constraintTop_toTopOf="parent"
         />
 
+    <TextView
+        android:id="@+id/tv_wallpaper1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="壁纸"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingVertical="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_wallpaper2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="壁纸"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingVertical="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_wallpaper3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="壁纸"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingVertical="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_wallpaper4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="壁纸"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingVertical="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
 </LinearLayout>

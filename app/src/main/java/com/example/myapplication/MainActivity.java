@@ -32,8 +32,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         findViewById(R.id.tv_viewflipper).setOnClickListener(this);
         findViewById(R.id.tv_xidinglist).setOnClickListener(this);
-        findViewById(R.id.tv_wallpaper).setOnClickListener(this);
         findViewById(R.id.tv_video).setOnClickListener(this);
+
+        findViewById(R.id.tv_wallpaper).setOnClickListener(this);
+        findViewById(R.id.tv_wallpaper1).setOnClickListener(this);
+        findViewById(R.id.tv_wallpaper2).setOnClickListener(this);
+        findViewById(R.id.tv_wallpaper3).setOnClickListener(this);
+        findViewById(R.id.tv_wallpaper4).setOnClickListener(this);
+
         requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},1);
     }
 
@@ -54,6 +60,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.tv_wallpaper:
                 String path = getSDPath()+"/VID_20210130_173944.mp4";
                 WallpaperDynamicService.setToWallPaper(this, path);
+                break;
+            case R.id.tv_wallpaper1:
+                String path1 = getSDPath()+"/1.mp4";
+                WallpaperDynamicService.setToWallPaper(this, path1);
+                break;
+            case R.id.tv_wallpaper2:
+                String path2 = getSDPath()+"/2.mp4";
+                WallpaperDynamicService.setToWallPaper(this, path2);
+                break;
+            case R.id.tv_wallpaper3:
+                String path3 = getSDPath()+"/3.mp4";
+                WallpaperDynamicService.setToWallPaper(this, path3);
+                break;
+            case R.id.tv_wallpaper4:
+                String path4 = getSDPath()+"/4.mp4";
+                WallpaperDynamicService.setToWallPaper(this, path4);
                 break;
             default:
                 break;
